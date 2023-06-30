@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "65744784091",
+    "firebase_url": "https://rssreaderapplication-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "rssreaderapplication",
+    "storage_bucket": "rssreaderapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65744784091:android:d7625649e3638416ec9afe",
+        "android_client_info": {
+          "package_name": "com.example.rssreaderapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65744784091-i7ftdm6r4fbplc2nm40l9meaq8tbji8a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgyBgvtXYmOfmosx5z--L9NCo2VfPJWjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65744784091-i7ftdm6r4fbplc2nm40l9meaq8tbji8a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

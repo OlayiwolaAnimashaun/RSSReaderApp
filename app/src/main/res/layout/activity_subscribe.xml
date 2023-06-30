@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    style="@style/linearParent"
+    android:layout_gravity="center"
+    android:padding="@dimen/loginViewsMargin"
+    tools:context=".SubscribeActivity">
+
+
+    <TextView
+        style="@style/headerTextPrimary"
+        android:text="Enter RSS URL"
+        android:layout_marginTop="@dimen/signup_text_margin_top"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputRSSURL"
+        style="@style/parent"
+        android:layout_marginTop="@dimen/loginViewsMargin">
+
+        <EditText
+            android:id="@+id/editTextRSSURL"
+            style="@style/modifiedEditText"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="URL"
+            tools:ignore="TextFields" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/cirSubscribeButton"
+        style="@style/loginButton"
+        android:layout_gravity="center"
+        android:text="Subscribe"
+        android:onClick="subscribe"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+</LinearLayout>
